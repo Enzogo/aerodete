@@ -1,0 +1,2741 @@
+{
+  "fecha": "2025-12-10T18:07:09.517309",
+  "modelo_version": "v3",
+  "normalizador": "normalization_robusto_v3.pkl",
+  "total_audios": 300,
+  "accuracy_general": 0.9966666666666667,
+  "accuracy_por_clase": {
+    "avion": 0.99,
+    "dron": 1.0,
+    "helicoptero": 1.0
+  },
+  "confianza_promedio": {
+    "avion": 0.9953250610828399,
+    "dron": 1.0,
+    "helicoptero": 0.9998583453893661
+  },
+  "matriz_confusion": [
+    [
+      99,
+      0,
+      1
+    ],
+    [
+      0,
+      100,
+      0
+    ],
+    [
+      0,
+      0,
+      100
+    ]
+  ],
+  "audios_por_clase": {
+    "avion": 100,
+    "dron": 100,
+    "helicoptero": 100
+  },
+  "detalles": [
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 8.537154548729855e-16,
+        "helicoptero": 6.609957026171287e-10
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 7.21878297527131e-19,
+        "helicoptero": 3.6927513130669e-11
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 7.743333216765522e-24,
+        "helicoptero": 3.5456477299545056e-14
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.231339637733326e-16,
+        "helicoptero": 2.8281708086552726e-09
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.1109095576415133e-21,
+        "helicoptero": 3.3276544497348737e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.129654215222487e-30,
+        "helicoptero": 7.303349681798092e-18
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.3234024653938243e-20,
+        "helicoptero": 2.873678942375002e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9999998807907104,
+        "dron": 3.2788407405837106e-12,
+        "helicoptero": 9.399795430908853e-08
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.1588496651486746e-20,
+        "helicoptero": 5.241112665393954e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.8072995623459028e-25,
+        "helicoptero": 5.439480839358876e-15
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 6.073284776551949e-34,
+        "helicoptero": 2.115209474532846e-21
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.2569473005520036e-25,
+        "helicoptero": 1.5594245018283725e-15
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9869453310966492,
+        "dron": 3.385144054846023e-06,
+        "helicoptero": 0.013051267713308334
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 4.9478505725546004e-30,
+        "helicoptero": 1.882809691934266e-18
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.2552900023977474e-24,
+        "helicoptero": 1.9833120288259792e-16
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.0909372363809844e-13,
+        "helicoptero": 3.020068817249921e-08
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9999879598617554,
+        "dron": 1.99681077228675e-10,
+        "helicoptero": 1.2020843314530794e-05
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9936882853507996,
+        "dron": 3.9280141805875246e-08,
+        "helicoptero": 0.006311759352684021
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.034849591486296e-28,
+        "helicoptero": 6.083977925415298e-18
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.3316068530682573e-19,
+        "helicoptero": 3.1074131982833375e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 4.9063990558914384e-18,
+        "helicoptero": 1.1529837848356372e-11
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9999996423721313,
+        "dron": 1.1324540480708856e-12,
+        "helicoptero": 3.846886613700917e-07
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9960989952087402,
+        "dron": 2.3515500288340263e-05,
+        "helicoptero": 0.0038775205612182617
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 4.503282370655534e-30,
+        "helicoptero": 9.182804949553303e-19
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 4.537394652479108e-28,
+        "helicoptero": 4.124720408064034e-18
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 5.37400768103884e-26,
+        "helicoptero": 1.6150682931252144e-16
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.2018810386789278e-27,
+        "helicoptero": 1.401526522562077e-16
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.999610960483551,
+        "dron": 3.0400190809132255e-08,
+        "helicoptero": 0.00038911341107450426
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.372155522767136e-16,
+        "helicoptero": 2.0510160236852926e-09
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 5.989177402388555e-17,
+        "helicoptero": 2.718611558094608e-09
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9987890124320984,
+        "dron": 7.66081029723864e-06,
+        "helicoptero": 0.0012033965904265642
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 8.590278739298862e-22,
+        "helicoptero": 5.580302929811265e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9960611462593079,
+        "dron": 0.0001368384255329147,
+        "helicoptero": 0.003802098799496889
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9811175465583801,
+        "dron": 0.0002497672685422003,
+        "helicoptero": 0.01863260194659233
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9092536568641663,
+        "dron": 0.0006905418704263866,
+        "helicoptero": 0.09005578607320786
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9999957084655762,
+        "dron": 3.35984907430531e-12,
+        "helicoptero": 4.268599241186166e-06
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 0.32448089122772217,
+        "dron": 0.004408175591379404,
+        "helicoptero": 0.6711109280586243
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9999978542327881,
+        "dron": 2.8211241936276776e-12,
+        "helicoptero": 2.1402731817943277e-06
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.3806508661814027e-16,
+        "helicoptero": 2.4900366213387315e-09
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9998496770858765,
+        "dron": 2.7106130673359985e-09,
+        "helicoptero": 0.00015024801541585475
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 5.242818953126859e-17,
+        "helicoptero": 1.2894784795491887e-08
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.7190803656277963e-16,
+        "helicoptero": 2.3648253133501385e-08
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.4479639536868693e-24,
+        "helicoptero": 2.5377632937792494e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 9.577888549121449e-29,
+        "helicoptero": 1.542573390147679e-16
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9999998807907104,
+        "dron": 2.065467077869154e-16,
+        "helicoptero": 6.253510065334922e-08
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.2392548459780133e-18,
+        "helicoptero": 5.530903290917877e-09
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.501543721455324e-23,
+        "helicoptero": 8.022427767397349e-15
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.0382627261510687e-21,
+        "helicoptero": 2.5849092492673774e-14
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 5.36516183858195e-25,
+        "helicoptero": 2.5526335776199325e-16
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.105932880675159e-22,
+        "helicoptero": 3.374131486363896e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.2303513598234153e-21,
+        "helicoptero": 1.4585947467199434e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 7.313150212623826e-29,
+        "helicoptero": 6.973638798356906e-18
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 8.674127313419651e-27,
+        "helicoptero": 5.87481829303967e-16
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 8.429723144210017e-29,
+        "helicoptero": 1.2355077340279891e-17
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 7.228708662584308e-25,
+        "helicoptero": 2.8052221376833946e-15
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.8439419510967046e-27,
+        "helicoptero": 1.108935666894228e-16
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 5.668332695702049e-20,
+        "helicoptero": 1.7130425550293538e-11
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.2679430749376982e-23,
+        "helicoptero": 2.3401353622357242e-14
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.0975728641232068e-23,
+        "helicoptero": 9.031150833953023e-15
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 9.139849460343424e-20,
+        "helicoptero": 1.480994320235407e-11
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.1674308562103453e-20,
+        "helicoptero": 1.202148406861947e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.385080582500931e-21,
+        "helicoptero": 9.921815972979697e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.679617513996706e-26,
+        "helicoptero": 1.0474194491136312e-15
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.1522154839107883e-24,
+        "helicoptero": 1.9022916651189464e-14
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.9825126194453995e-21,
+        "helicoptero": 2.157222100604428e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.2738742992030015e-20,
+        "helicoptero": 9.114957053024675e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.087805803346184e-22,
+        "helicoptero": 8.179447245383609e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 4.319049428142318e-23,
+        "helicoptero": 1.3847618527112332e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.2416231410426699e-22,
+        "helicoptero": 4.1854209984967805e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 8.830987664241636e-18,
+        "helicoptero": 1.1425491663885623e-09
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.0246009426936381e-23,
+        "helicoptero": 9.090709955639209e-14
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 7.464567028088313e-20,
+        "helicoptero": 1.541024599593932e-11
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.3256899925271047e-19,
+        "helicoptero": 1.3949934089818594e-11
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.2938882226029607e-16,
+        "helicoptero": 9.97634974631012e-10
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.944085307086861e-19,
+        "helicoptero": 1.3712335433790912e-10
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.3612482698979464e-18,
+        "helicoptero": 4.424707822359153e-10
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.6825058809263e-27,
+        "helicoptero": 1.5785161744732312e-16
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 5.705699297744183e-17,
+        "helicoptero": 4.3870955757085994e-09
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.368124193176697e-14,
+        "helicoptero": 5.7650488827221125e-08
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9999998807907104,
+        "dron": 2.280103934978149e-14,
+        "helicoptero": 1.7046660616415465e-07
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 7.066357539392424e-15,
+        "helicoptero": 4.3788968895341895e-08
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.1365022383573335e-17,
+        "helicoptero": 1.3270692877931367e-10
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.204875033600389e-22,
+        "helicoptero": 3.892476212229504e-14
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.3236173875275113e-21,
+        "helicoptero": 4.686253555347131e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 7.335119724572299e-19,
+        "helicoptero": 1.220859385808737e-10
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 4.2746385705843564e-19,
+        "helicoptero": 6.550126413484847e-11
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 5.269048110573567e-23,
+        "helicoptero": 1.0988268400648898e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.22930609214198e-18,
+        "helicoptero": 3.323701314172922e-10
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 8.385171321124898e-15,
+        "helicoptero": 1.785597558701113e-09
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.33615335269718e-23,
+        "helicoptero": 1.1781177975452722e-14
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.986000519163961e-19,
+        "helicoptero": 5.9857670035856625e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.9899481638874587e-26,
+        "helicoptero": 1.004468843578089e-16
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 5.950590631394724e-20,
+        "helicoptero": 2.332010669639506e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.9028684081983707e-18,
+        "helicoptero": 2.2963915491391873e-11
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 4.180664923793551e-21,
+        "helicoptero": 2.7300170045603533e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 1.7336431344759602e-21,
+        "helicoptero": 1.171436537182602e-13
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 8.470256680649099e-18,
+        "helicoptero": 1.7762747869798368e-11
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 3.4356972591784147e-20,
+        "helicoptero": 4.687666053937445e-12
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 1.0,
+        "dron": 2.111553710395342e-17,
+        "helicoptero": 9.586753613177734e-10
+      }
+    },
+    {
+      "real": "avion",
+      "prediccion": "avion",
+      "confianzas": {
+        "avion": 0.9999997615814209,
+        "dron": 2.2403379065089046e-12,
+        "helicoptero": 2.7378021627555427e-07
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.2867920664720875e-12,
+        "dron": 1.0,
+        "helicoptero": 9.18986278541185e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.314562477685633e-16,
+        "dron": 1.0,
+        "helicoptero": 7.338310573785223e-19
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.368257121076932e-16,
+        "dron": 1.0,
+        "helicoptero": 5.721866273982832e-19
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.3158760065894457e-12,
+        "dron": 1.0,
+        "helicoptero": 1.8622247027842015e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.4747810084259072e-08,
+        "dron": 1.0,
+        "helicoptero": 4.534791209209743e-09
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.426615645558186e-13,
+        "dron": 1.0,
+        "helicoptero": 5.686192737773847e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.103010572804053e-17,
+        "dron": 1.0,
+        "helicoptero": 5.957313412576278e-20
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.7941048646719082e-09,
+        "dron": 1.0,
+        "helicoptero": 2.5468152586860526e-10
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.9975194785239407e-14,
+        "dron": 1.0,
+        "helicoptero": 3.2343241053834173e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.835099555635213e-13,
+        "dron": 1.0,
+        "helicoptero": 1.8542861469486918e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.0341328487983859e-12,
+        "dron": 1.0,
+        "helicoptero": 1.0508297519900428e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.775607992081558e-14,
+        "dron": 1.0,
+        "helicoptero": 1.3637807491989552e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.0950795663062368e-13,
+        "dron": 1.0,
+        "helicoptero": 4.8578360199735566e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.0792406385121707e-12,
+        "dron": 1.0,
+        "helicoptero": 9.296816111002346e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.175142982737855e-13,
+        "dron": 1.0,
+        "helicoptero": 5.182395751955355e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.942255801999474e-12,
+        "dron": 1.0,
+        "helicoptero": 4.39119742087421e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.290964194548664e-11,
+        "dron": 1.0,
+        "helicoptero": 2.0111434219372004e-12
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.0936264394079132e-10,
+        "dron": 1.0,
+        "helicoptero": 1.6235620703755616e-12
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.964016796418555e-11,
+        "dron": 1.0,
+        "helicoptero": 4.999833554987509e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 6.196435725636107e-12,
+        "dron": 1.0,
+        "helicoptero": 5.5806941912702607e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.2243537347161881e-12,
+        "dron": 1.0,
+        "helicoptero": 1.898080217305198e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.9546306807431977e-12,
+        "dron": 1.0,
+        "helicoptero": 5.632741316560427e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 8.421049773298106e-13,
+        "dron": 1.0,
+        "helicoptero": 1.483966656425518e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.803077305517764e-11,
+        "dron": 1.0,
+        "helicoptero": 2.7182222401764267e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.5666624898422188e-12,
+        "dron": 1.0,
+        "helicoptero": 2.335631688055173e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.575520634436057e-13,
+        "dron": 1.0,
+        "helicoptero": 1.9066250856770994e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.419523995559781e-12,
+        "dron": 1.0,
+        "helicoptero": 1.0500109082992731e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.2077302049065541e-13,
+        "dron": 1.0,
+        "helicoptero": 1.2833062452868686e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 9.010448637214452e-12,
+        "dron": 1.0,
+        "helicoptero": 8.85431918756785e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 8.977609779713125e-13,
+        "dron": 1.0,
+        "helicoptero": 2.9978095201534105e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 4.674630474377217e-12,
+        "dron": 1.0,
+        "helicoptero": 3.39801937401709e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 9.800739728246452e-14,
+        "dron": 1.0,
+        "helicoptero": 1.562711730817548e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.6646786157992048e-15,
+        "dron": 1.0,
+        "helicoptero": 2.321495624019873e-17
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.1265112812459373e-14,
+        "dron": 1.0,
+        "helicoptero": 3.6935027836723416e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 4.9120274091696975e-14,
+        "dron": 1.0,
+        "helicoptero": 1.2376694018140515e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.7455558239777335e-14,
+        "dron": 1.0,
+        "helicoptero": 4.448269226075619e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 4.5079515120782787e-10,
+        "dron": 1.0,
+        "helicoptero": 1.6227262589207925e-12
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.0213795354505635e-10,
+        "dron": 1.0,
+        "helicoptero": 1.8610859381373857e-12
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.4343771396335692e-12,
+        "dron": 1.0,
+        "helicoptero": 1.5229759117783674e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.4622946950537674e-11,
+        "dron": 1.0,
+        "helicoptero": 5.518984249643089e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 6.305129595512993e-12,
+        "dron": 1.0,
+        "helicoptero": 9.095913448440782e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.2314594873344409e-12,
+        "dron": 1.0,
+        "helicoptero": 4.605867011571452e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.969472320286549e-12,
+        "dron": 1.0,
+        "helicoptero": 8.87619513480209e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.2590533650380653e-11,
+        "dron": 1.0,
+        "helicoptero": 3.6546647327363735e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 6.43428927217353e-14,
+        "dron": 1.0,
+        "helicoptero": 1.243395450416609e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.4365546079087022e-11,
+        "dron": 1.0,
+        "helicoptero": 1.8472288314860114e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 6.116502161528092e-13,
+        "dron": 1.0,
+        "helicoptero": 1.6046546212557418e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.2695726254770037e-11,
+        "dron": 1.0,
+        "helicoptero": 1.3466498424187512e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.0740966276123753e-11,
+        "dron": 1.0,
+        "helicoptero": 1.6168646011904125e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.8043514301652646e-14,
+        "dron": 1.0,
+        "helicoptero": 6.458825275556645e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.5532306184047364e-12,
+        "dron": 1.0,
+        "helicoptero": 5.322038789485825e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.2514416586340005e-12,
+        "dron": 1.0,
+        "helicoptero": 7.009859001854551e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.4284370561390425e-11,
+        "dron": 1.0,
+        "helicoptero": 1.6876829252686354e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.5970159764934488e-13,
+        "dron": 1.0,
+        "helicoptero": 2.9161127265226123e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 8.142074796498033e-13,
+        "dron": 1.0,
+        "helicoptero": 4.122463953320707e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.2320649871427197e-13,
+        "dron": 1.0,
+        "helicoptero": 5.822280439211512e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.978518903213768e-10,
+        "dron": 1.0,
+        "helicoptero": 5.148863106707591e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.1727858227904573e-12,
+        "dron": 1.0,
+        "helicoptero": 3.1704876896597456e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.1052457888337704e-14,
+        "dron": 1.0,
+        "helicoptero": 3.24833493030351e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.3192606763154455e-14,
+        "dron": 1.0,
+        "helicoptero": 1.9733277603091172e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.4152049757770735e-12,
+        "dron": 1.0,
+        "helicoptero": 3.323827758167086e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.303322142050256e-13,
+        "dron": 1.0,
+        "helicoptero": 2.9225383184604834e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 4.7043301871184384e-14,
+        "dron": 1.0,
+        "helicoptero": 5.680076418740842e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.2114001439494518e-13,
+        "dron": 1.0,
+        "helicoptero": 5.5606205268598705e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 4.5260243469735784e-11,
+        "dron": 1.0,
+        "helicoptero": 7.542693683179613e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.009720731846465e-12,
+        "dron": 1.0,
+        "helicoptero": 2.6457946551423743e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.2771802658431003e-13,
+        "dron": 1.0,
+        "helicoptero": 3.0199602364054104e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.1036147270728917e-13,
+        "dron": 1.0,
+        "helicoptero": 5.5882647176429354e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.5967913840134185e-12,
+        "dron": 1.0,
+        "helicoptero": 1.826309591025036e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.536561812032558e-13,
+        "dron": 1.0,
+        "helicoptero": 9.52370176333082e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.390354663679318e-10,
+        "dron": 1.0,
+        "helicoptero": 5.999917576660074e-12
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 4.574923426203803e-11,
+        "dron": 1.0,
+        "helicoptero": 5.078269076953801e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.8226948271006516e-13,
+        "dron": 1.0,
+        "helicoptero": 1.2342565154871508e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 7.009799424945173e-12,
+        "dron": 1.0,
+        "helicoptero": 6.05800606619071e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 6.024199472598468e-10,
+        "dron": 1.0,
+        "helicoptero": 4.968092452185824e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 7.033222962360419e-12,
+        "dron": 1.0,
+        "helicoptero": 3.064753244480349e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.8192683755411006e-15,
+        "dron": 1.0,
+        "helicoptero": 8.211067907511733e-17
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.3733291807520596e-12,
+        "dron": 1.0,
+        "helicoptero": 8.679310288322532e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.978677839260649e-13,
+        "dron": 1.0,
+        "helicoptero": 1.945180534658128e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 4.043389928432006e-11,
+        "dron": 1.0,
+        "helicoptero": 2.03117405707387e-12
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.990856260570718e-12,
+        "dron": 1.0,
+        "helicoptero": 6.178977143313225e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.5531460506352825e-12,
+        "dron": 1.0,
+        "helicoptero": 5.721861786461835e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 4.733534781996935e-15,
+        "dron": 1.0,
+        "helicoptero": 2.3854336678153475e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 6.76160794021996e-11,
+        "dron": 1.0,
+        "helicoptero": 1.9179696351089015e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 9.628447128137707e-13,
+        "dron": 1.0,
+        "helicoptero": 1.3424100020606108e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 6.218818998171907e-14,
+        "dron": 1.0,
+        "helicoptero": 1.3447336251931662e-15
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 6.869230526193246e-14,
+        "dron": 1.0,
+        "helicoptero": 9.876787447393775e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 9.055569946789417e-16,
+        "dron": 1.0,
+        "helicoptero": 1.9568054231434115e-17
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.2135482195036887e-13,
+        "dron": 1.0,
+        "helicoptero": 1.1825753931334927e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.422058218666802e-15,
+        "dron": 1.0,
+        "helicoptero": 1.6477081783520668e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.620922645579782e-10,
+        "dron": 1.0,
+        "helicoptero": 4.772048641660254e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 2.0436142361690557e-11,
+        "dron": 1.0,
+        "helicoptero": 2.0555509605644368e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.505777211500888e-14,
+        "dron": 1.0,
+        "helicoptero": 5.722573120495774e-16
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.753900323586688e-11,
+        "dron": 1.0,
+        "helicoptero": 5.275450215558308e-13
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.1198637503428976e-11,
+        "dron": 1.0,
+        "helicoptero": 7.801895414438764e-12
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 4.491070570988853e-10,
+        "dron": 1.0,
+        "helicoptero": 1.7984396524090007e-12
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 6.952028420303827e-15,
+        "dron": 1.0,
+        "helicoptero": 3.912097436638096e-17
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 5.420362458706399e-15,
+        "dron": 1.0,
+        "helicoptero": 4.528773818186179e-17
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 1.0205595049606053e-12,
+        "dron": 1.0,
+        "helicoptero": 5.64373207727082e-14
+      }
+    },
+    {
+      "real": "dron",
+      "prediccion": "dron",
+      "confianzas": {
+        "avion": 3.328306529578988e-14,
+        "dron": 1.0,
+        "helicoptero": 5.445146007468349e-16
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 7.907094914266256e-15,
+        "dron": 4.44220424696376e-21,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.518506673703755e-14,
+        "dron": 1.3140557283687586e-20,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 5.9672202075422565e-12,
+        "dron": 8.245182490334645e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 3.2469597723136425e-15,
+        "dron": 5.957534606649747e-22,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 7.211270469653641e-11,
+        "dron": 6.041683254253175e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.6447827475007948e-11,
+        "dron": 6.799921605297909e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 7.068584243426967e-18,
+        "dron": 2.5473620250080086e-23,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.3390736297580474e-09,
+        "dron": 6.004256553754361e-12,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 9.202526416629553e-05,
+        "dron": 1.3364490314415889e-06,
+        "helicoptero": 0.9999066591262817
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.352359539439021e-08,
+        "dron": 1.4052300989497724e-10,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 0.00014320052287075669,
+        "dron": 1.481583240092732e-06,
+        "helicoptero": 0.9998552799224854
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.0252134416077752e-05,
+        "dron": 1.716112194571906e-07,
+        "helicoptero": 0.9999896287918091
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.658358143672103e-09,
+        "dron": 1.3838127692344937e-11,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.6297590509014295e-15,
+        "dron": 7.027016659887376e-19,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 7.64241381290276e-09,
+        "dron": 1.0566357684649308e-11,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.7475588471048695e-09,
+        "dron": 2.4587944527643124e-12,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.986771882213418e-10,
+        "dron": 7.006748154771147e-13,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.0853039711763417e-19,
+        "dron": 1.2243649785836601e-24,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.7686663223402677e-13,
+        "dron": 1.0114928932445167e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.1622642408678993e-18,
+        "dron": 2.7218062882459913e-25,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.5763757463328905e-17,
+        "dron": 4.1949678520781554e-26,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.6735217721174377e-16,
+        "dron": 1.3101366370993618e-20,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.8401232182441163e-06,
+        "dron": 3.0830900499267955e-08,
+        "helicoptero": 0.9999980926513672
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.1170418092571431e-14,
+        "dron": 9.299949233927297e-19,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 5.614566362055484e-06,
+        "dron": 2.411528043921862e-07,
+        "helicoptero": 0.999994158744812
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.045977079040867e-12,
+        "dron": 3.3644995697888064e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.6899103644218982e-11,
+        "dron": 7.879900392099065e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.1477670485045277e-13,
+        "dron": 5.449044013386944e-19,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.725544635502191e-14,
+        "dron": 2.4432462187312335e-19,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 7.168378668431785e-10,
+        "dron": 1.3677670344794998e-14,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.0806481069421201e-14,
+        "dron": 7.028108570607689e-21,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.695509566079778e-10,
+        "dron": 5.764649283097889e-13,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 3.1925080634653824e-11,
+        "dron": 1.1771423332273905e-15,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.4015385169997303e-16,
+        "dron": 2.353589229920959e-23,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.543377925461442e-11,
+        "dron": 3.8548286788063957e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.7668613039308705e-18,
+        "dron": 1.6416220089552544e-24,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.669230420553447e-09,
+        "dron": 2.1699104373138628e-13,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 9.143186902038636e-11,
+        "dron": 9.01896287687498e-15,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 7.039242522210998e-10,
+        "dron": 3.201527720231648e-14,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.12890955203693e-07,
+        "dron": 8.974815557394322e-09,
+        "helicoptero": 0.9999995231628418
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.070323471789065e-19,
+        "dron": 2.068533069781137e-25,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.672044702744419e-19,
+        "dron": 7.6883769259804605e-25,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.8348977881927578e-19,
+        "dron": 1.9131168711341836e-25,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.1273314036675576e-19,
+        "dron": 4.897518191434014e-25,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.981957997037535e-20,
+        "dron": 4.4908369138547e-26,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.313178207792909e-20,
+        "dron": 5.466554623768073e-26,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 3.7137568655214706e-19,
+        "dron": 5.977535330820457e-25,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.470700411348945e-20,
+        "dron": 1.0629633224702458e-25,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.442432511538112e-19,
+        "dron": 1.1868485042164823e-25,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 0.013802146539092064,
+        "dron": 0.00010662339627742767,
+        "helicoptero": 0.9860911965370178
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 9.581420989945855e-09,
+        "dron": 2.165222445782433e-09,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.4594824196473964e-17,
+        "dron": 1.0747388126875915e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.416759715286731e-17,
+        "dron": 4.726021983566594e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.74906862509575e-16,
+        "dron": 2.3371621601238313e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.298229001759843e-16,
+        "dron": 6.639209676701717e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 9.337614130533207e-15,
+        "dron": 5.0479601882813096e-15,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 3.23609963202465e-17,
+        "dron": 1.3234751661686146e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.3569707697391532e-17,
+        "dron": 5.512353108749303e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 3.3473560861575224e-17,
+        "dron": 1.6448436849780202e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.3723333996860595e-16,
+        "dron": 7.56958603375441e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.385129801362965e-18,
+        "dron": 4.708366847367415e-19,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 6.480099037422529e-16,
+        "dron": 3.7267763554228587e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 3.152032273754151e-17,
+        "dron": 1.5246708855863164e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.232415732898266e-16,
+        "dron": 3.6245224718558705e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.0430087933660942e-16,
+        "dron": 1.180019068874503e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.44580694100262e-17,
+        "dron": 2.2983651725510527e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.432182384233895e-18,
+        "dron": 2.552670064556752e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.48915213281777e-17,
+        "dron": 4.465864085623561e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.2106714213878965e-16,
+        "dron": 1.2883375098204848e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.3320484309528976e-17,
+        "dron": 2.2182477671416167e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 9.300956450400172e-16,
+        "dron": 5.527709485210778e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 9.721209200202433e-17,
+        "dron": 4.880715346025851e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.451541222981719e-17,
+        "dron": 4.919839665510629e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.689472116120962e-17,
+        "dron": 4.647095718239234e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.594069736480526e-17,
+        "dron": 4.6578507205636486e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.061319164781437e-16,
+        "dron": 2.354271166867184e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.5614059765897963e-16,
+        "dron": 8.940987961896286e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.2140726557178165e-16,
+        "dron": 1.194981376492158e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 7.997851847586594e-17,
+        "dron": 4.279472169474537e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.0292113377118772e-16,
+        "dron": 5.010085401212409e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.48350591153037e-17,
+        "dron": 5.515886824326129e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.6956531548424164e-16,
+        "dron": 9.724139404804341e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 9.982000387622436e-18,
+        "dron": 3.9649802512514686e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.3139274339482213e-17,
+        "dron": 5.9467846441493965e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.178116553465631e-16,
+        "dron": 3.656742149331546e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.918235298444203e-17,
+        "dron": 9.962789945076505e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.470858602162156e-17,
+        "dron": 1.597597609930829e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.5401216268120718e-16,
+        "dron": 8.614814102754376e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.7257947230087872e-17,
+        "dron": 7.082106992080984e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 5.153784871586346e-17,
+        "dron": 2.7237596770409433e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.7420690552020085e-15,
+        "dron": 1.5689596575947326e-15,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 8.876350745342412e-17,
+        "dron": 3.1882505423109077e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.8849028145716886e-16,
+        "dron": 1.1015741564892001e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.879225394581753e-16,
+        "dron": 1.1720292982506287e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 7.779660130840827e-17,
+        "dron": 2.6431123797311058e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 2.392549909242586e-16,
+        "dron": 1.3312329788051167e-16,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 4.783648678992958e-17,
+        "dron": 1.6243974345969345e-17,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.522026885476352e-17,
+        "dron": 6.2710965197324495e-18,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 3.49044410462266e-18,
+        "dron": 9.006807798571926e-19,
+        "helicoptero": 1.0
+      }
+    },
+    {
+      "real": "helicoptero",
+      "prediccion": "helicoptero",
+      "confianzas": {
+        "avion": 1.639881593919437e-17,
+        "dron": 7.663251830416852e-18,
+        "helicoptero": 1.0
+      }
+    }
+  ]
+}
