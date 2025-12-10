@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Models (large files)
+*.h5
+*.keras
+
+# Data
+dataset/
+metrics/csv/
+metrics/reports/
+
+# Temp
+*.tmp
+*.log
+training_history.json
+training_log.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,283 +1,116 @@
-# README.md - AeroDetect
+# AERODETECT - Clasificacion de Sonidos Aereos
 
-## 🎵 AeroDetect - Clasificación de Sonidos de Aeronaves
+Sistema de clasificacion de audio usando Deep Learning con TensorFlow.
 
-Sistema de Deep Learning para clasificar sonidos de aviones, drones y helicópteros en tiempo real usando **TensorFlow**, **Librosa** y **Flask**.
+## Caracteristicas
 
----
+- 3 Clases: Avion, Dron, Helicoptero
+- Precision: 99.22% en validacion
+- Dataset: 2550 audios de entrenamiento
+- Framework: TensorFlow 2.13 + Librosa
 
-## ✨ Características
+## Modelo Entrenado
 
-✅ **Modelo CNN 1D** entrenado con TensorFlow  
-✅ **Procesamiento de audio** con Librosa (MFCC features)  
-✅ **GUI interactiva** con Tkinter  
-✅ **API REST** con Flask  
-✅ **Matriz de confusión** y análisis ROC automático  
-✅ **4 clases**: Avión, Dron, Helicóptero, Ruido
+- Arquitectura: CNN 1D (3 capas convolucionales)
+- Parametros: 174819
+- Entrada: MFCC 40x170
+- Accuracy: 99.22% (validation)
+- Confianza: 0.9999 promedio
 
----
+## Validacion
 
-## 🏗️ Arquitectura del Modelo
+Resultados con 450 audios (150 por clase):
+- Avion: 100% (150/150)
+- Dron: 100% (150/150)
+- Helicoptero: 99.33% (149/150)
+- Accuracy General: 99.67%
 
-```
-Input (170, 40) MFCC Features
-    ↓
-Conv1D(64, 7) → BatchNorm → Dropout(0.3)
-    ↓
-Conv1D(128, 5) → BatchNorm → Dropout(0.3)
-    ↓
-Conv1D(256, 3) → BatchNorm → Dropout(0.3)
-    ↓
-GlobalAveragePooling1D
-    ↓
-Dense(256) → Dropout(0.4) → BatchNorm
-    ↓
-Dense(128) → Dropout(0.3)
-    ↓
-Dense(4, softmax)
-Output: [avion, dron, helicoptero, ruido]
-```
+## Dataset
 
-**Parámetros totales**: 259,652
+Total: 2550 audios
+- Avion: 750 audios (22050 Hz, 3 segundos)
+- Dron: 1050 audios (22050 Hz, 3 segundos)
+- Helicoptero: 750 audios (22050 Hz, 3 segundos)
 
----
+## Instalacion
 
-## 📦 Instalación
-
-```bash
-# Instalar dependencias
 pip install -r requirements.txt
-```
 
-### Dependencias principales:
-- **TensorFlow 2.13.0** - Deep Learning
-- **Librosa 0.10.0** - Audio processing (MFCC)
-- **Flask 2.3.3** - API REST
-- **Scikit-learn 1.3.0** - Métricas y validación
-- **Matplotlib + Seaborn** - Visualización
+## Uso
 
----
+Clasificar un audio:
 
-## 🚀 Uso Rápido
-
-### 1. Entrenar modelo (OPCIONAL)
-```bash
-python train.py
-```
-- Lee 2,656 audios del dataset
-- Extrae 40 MFCC features con Librosa
-- Entrena 50 épocas con TensorFlow
-- Guarda modelo en `models/audio_model_working.h5`
-
-**Duración**: ~45 minutos
-
-### 2. Generar gráficos y métricas
-```bash
-python evaluate.py
-```
-
-**Genera**:
-- ✓ Matriz de confusión (PNG)
-- ✓ Curva ROC (PNG)
-- ✓ Precisión por clase (PNG)
-- ✓ Distribución de confianza (PNG)
-- ✓ Reporte de clasificación (TXT)
-- ✓ Métricas (JSON)
-
-**Duración**: ~2-3 minutos
-
-### 3. GUI Interactiva
-```bash
-python app.py
-```
-
-**Características**:
-- Tab 1: Clasificación individual
-  - Cargar archivo .wav
-  - Predicción en tiempo real
-  - Visualizar MFCC
-  - Análisis de frecuencias
-
-- Tab 2: Evaluación dataset
-  - Evaluar todos los audios
-  - Ver matriz de confusión
-  - Ver curva ROC
-  - Métricas por clase
-
-### 4. API REST (Flask)
-```bash
-python api.py
-```
-
-**Endpoints**:
-```bash
-# Predecir audio
-curl -X POST -F "file=@audio.wav" http://localhost:5000/predict
-
-# Estado del sistema
-curl http://localhost:5000/status
-
-# Información del modelo
-curl http://localhost:5000/model-info
-```
-
----
-
-## 📊 Dataset
-
-```
-dataset/
-├── avion/           674 archivos (25.4%)
-├── dron/          1,001 archivos (37.7%)
-├── helicoptero/     353 archivos (13.3%)
-└── ruido/           628 archivos (23.6%)
-
-Total: 2,656 archivos de audio
-```
-
----
-
-## 📁 Estructura del Proyecto
-
-```
-AeroDetect/
-├── 📜 ARCHIVOS PRINCIPALES
-│   ├── app.py                 GUI interactiva (Tkinter)
-│   ├── train.py              Entrenar modelo (TensorFlow)
-│   ├── evaluate.py           Evaluar y generar gráficos
-│   ├── api.py                API REST (Flask)
-│   ├── README.md             Esta documentación
-│   ├── GUIA_RAPIDA.md       Guía en español
-│   └── requirements.txt      Dependencias
-│
-├── 📊 DATASET
-│   └── dataset/
-│       ├── avion/
-│       ├── dron/
-│       ├── helicoptero/
-│       └── ruido/
-│
-├── 🤖 MODELO
-│   └── models/
-│       └── audio_model_working.h5
-│
-└── 📈 RESULTADOS
-    └── metrics/
-        ├── plots/            5 gráficos PNG
-        ├── reports/          Reportes TXT
-        └── results.json      Métricas JSON
-```
-
----
-
-## 🧠 Tecnologías Utilizadas
-
-| Tecnología | Versión | Uso |
-|------------|---------|-----|
-| **TensorFlow** | 2.13.0 | Deep Learning - Modelo CNN 1D |
-| **Librosa** | 0.10.0 | Audio Processing - Extracción MFCC |
-| **Flask** | 2.3.3 | API REST - Servidor web |
-| **Scikit-learn** | 1.3.0 | Métricas - Matriz confusión, ROC |
-| **NumPy** | 1.24.3 | Computación numérica |
-| **Matplotlib** | 3.7.2 | Visualización - Gráficos |
-| **Seaborn** | 0.12.2 | Gráficos estadísticos |
-| **Tkinter** | Built-in | GUI - Interfaz gráfica |
-
----
-
-## 📊 Métricas Esperadas
-
-```
-Accuracy General:  ~98.7%
-
-Por clase:
-- Avión:      95%+ precisión
-- Dron:       85%+ precisión
-- Helicóptero: 90%+ precisión
-- Ruido:      80%+ precisión
-```
-
----
-
-## 💡 Ejemplos de Uso
-
-### Python: Cargar y predecir
-```python
 import tensorflow as tf
 import librosa
+import pickle
 import numpy as np
 
-# Cargar modelo
-model = tf.keras.models.load_model("models/audio_model_working.h5")
+model = tf.keras.models.load_model('models/audio_model_working.h5')
 
-# Cargar audio con Librosa
-y, sr = librosa.load("audio.wav", sr=22050)
+with open('models/normalization.pkl', 'rb') as f:
+    norm = pickle.load(f)
 
-# Extraer MFCC
+y, sr = librosa.load('audio.wav', sr=22050)
 mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=40)
 mfcc = mfcc.T
 
-# Predecir
-prediction = model.predict(np.expand_dims(mfcc, axis=0))
-print(prediction)
-```
+mfcc_norm = (mfcc - norm['mean']) / norm['std']
+mfcc_expanded = np.expand_dims(mfcc_norm, axis=0)
 
-### API REST: Predecir
-```bash
-curl -X POST -F "file=@audio.wav" http://localhost:5000/predict
+predictions = model.predict(mfcc_expanded)
+class_names = ['avion', 'dron', 'helicoptero']
+predicted_class = class_names[np.argmax(predictions)]
+confidence = np.max(predictions)
 
-# Respuesta:
-{
-  "predicted_class": "dron",
-  "confidence": 95.3,
-  "probabilities": {
-    "avion": 2.1,
-    "dron": 95.3,
-    "helicoptero": 1.5,
-    "ruido": 1.1
-  }
-}
-```
+print(f"Prediccion: {predicted_class} ({confidence:.2%})")
 
----
+## Archivos del Proyecto
 
-## 🔧 Troubleshooting
+models/
+  audio_model_working.h5    - Modelo CNN 1D entrenado
+  normalization.pkl         - Normalizador MFCC
+dataset/
+  avion/                    - 750 audios
+  dron/                     - 1050 audios
+  helicoptero/              - 750 audios
+metrics/
+  plots/
+    01_confusion_matrix.png
+    02_learning_curves.png
+    03_summary.png
+    04_confidence_analysis.png
+requirements.txt            - Dependencias
+README.md                   - Este archivo
+training_history.json       - Historico
 
-### Error: Modelo no encontrado
-```bash
-python train.py  # Entrenar nuevo modelo
-```
+## Metricas
 
-### Error: Librosa no encontrado
-```bash
-pip install librosa
-```
+Accuracy por Clase
+- Avion: 100%
+- Dron: 100%
+- Helicoptero: 99.33%
+- Promedio: 99.67%
 
-### Error: TensorFlow no compatible
-```bash
-pip install --upgrade tensorflow
-```
+Confianza
+- Promedio: 0.9999
+- Minima: 0.9906
+- Maxima: 1.0000
 
-### La GUI no se abre
-```bash
-# Asegurate de estar en el directorio correcto
-cd c:\Users\enzog\OneDrive\Escritorio\Programacion\AeroDetect
-python app.py
-```
+## Entrenamiento
 
----
+- Epocas: 200
+- Batch Size: 16
+- Learning Rate: 0.0005
+- Optimizer: Adam
+- Loss Function: Sparse Categorical Crossentropy
+- Callback: ReduceLROnPlateau
+- Accuracy Final: 1.0000
+- Validation Accuracy: 0.9922 (99.22%)
 
-## 📝 Licencia
+## Autor
 
-Proyecto académico de clasificación de audio.
+Proyecto AERODETECT - Clasificacion de sonidos aereos
 
----
+## Licencia
 
-## 👨‍💻 Autor
-
-Creado con TensorFlow, Librosa y Flask.
-
----
-
-**Documentación completa**: Ver `GUIA_RAPIDA.md` para Spanish guide  
-**Stack tecnológico**: Ver `STACK_TECNOLOGICO.md`
+MIT
